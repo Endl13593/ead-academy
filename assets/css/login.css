@@ -1,0 +1,41 @@
+body {
+	font-family: Arial;
+}
+form {
+	width: 310px;
+	background-color: #DDD;
+	margin: auto;
+	margin-top: 30px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+input {
+	width: 300px;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 14px;
+	border: 1px solid #CCC;
+}
+input[type=submit] {
+	width: 310px;
+	background-color: #AAA;
+	border: 1px solid #CCC;
+}
+input[type=submit]:hover {
+	background-color: #CCC;
+	border: 1px solid #AAA;
+	cursor: pointer;
+}
+.login {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.aviso {
+	background-color: #EE2222;
+	padding: 10px;
+	color: #FFF;
+	text-align: center;
+	margin-bottom: 10px;
+}
